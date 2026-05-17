@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>기출서랍 개인정보 처리방침</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f5ef;
+      --paper: #fffdf8;
+      --text: #1f2328;
+      --muted: #5f6670;
+      --border: #ded8cb;
+      --accent: #2b5f4d;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #181714;
+        --paper: #211f1b;
+        --text: #f0eee8;
+        --muted: #bbb4a8;
+        --border: #3b362e;
+        --accent: #7fc4a6;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif;
+      line-height: 1.72;
+    }
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 32px auto;
+      padding: 28px;
+      background: var(--paper);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+    h1 { margin: 0 0 8px; font-size: clamp(28px, 5vw, 40px); line-height: 1.2; }
+    h2 { margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--border); font-size: 20px; }
+    p { margin: 12px 0; }
+    a { color: var(--accent); }
+    table { width: 100%; border-collapse: collapse; margin: 14px 0 20px; font-size: 14px; }
+    th, td { border: 1px solid var(--border); padding: 10px; vertical-align: top; }
+    th { background: color-mix(in srgb, var(--accent) 9%, transparent); text-align: left; }
+    .lead { color: var(--muted); }
+    .date { margin-top: 28px; color: var(--muted); font-weight: 600; }
+    @media (max-width: 640px) {
+      main { width: 100%; margin: 0; border: 0; border-radius: 0; padding: 22px 16px; }
+      table { display: block; overflow-x: auto; white-space: nowrap; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>개인정보 처리방침</h1>
+    <p class="lead">기출서랍은 정보처리기사·정보보안기사 등 자격증 학습을 돕는 비공식 학습 앱입니다. 이 방침은 기출서랍이 앱에서 처리하는 정보와 광고 SDK를 통해 처리될 수 있는 정보를 설명합니다.</p>
+
+    <h2>1. 개인정보의 처리 항목과 목적</h2>
+    <p>기출서랍은 회원가입, 로그인, 결제, 게시판, 서버 동기화 기능을 제공하지 않습니다. 이용자의 이름, 이메일 주소, 전화번호, 주소, 주민등록번호, 위치정보, 사진, 연락처를 직접 수집하지 않습니다.</p>
+    <p>앱 기능 제공을 위해 다음 정보가 이용자의 기기 내부에 저장됩니다.</p>
+    <table>
+      <thead><tr><th>구분</th><th>처리 항목</th><th>처리 목적</th><th>저장 위치</th></tr></thead>
+      <tbody>
+        <tr><td>학습 진도</td><td>과목별 풀이 수, 정답 수, 마지막 학습 시각</td><td>학습 진도 표시 및 이어풀기</td><td>이용자 기기</td></tr>
+        <tr><td>모의고사 기록</td><td>응시 일시, 점수, 정답 수, 소요 시간, 과목별 점수</td><td>응시 결과 표시</td><td>이용자 기기</td></tr>
+        <tr><td>앱 설정</td><td>테마 설정 등 앱 사용 설정</td><td>사용자 설정 유지</td><td>이용자 기기</td></tr>
+      </tbody>
+    </table>
+    <p>위 정보는 앱 개발자가 운영하는 별도 서버로 전송되지 않습니다.</p>
+
+    <h2>2. 광고 SDK를 통한 자동 수집 정보</h2>
+    <p>기출서랍은 광고 표시를 위해 Google AdMob SDK를 사용합니다. Google Mobile Ads SDK는 광고 제공, 분석, 부정행위 방지 목적으로 다음 정보를 자동으로 수집하거나 공유할 수 있습니다.</p>
+    <table>
+      <thead><tr><th>제공자</th><th>처리될 수 있는 정보</th><th>이용 목적</th></tr></thead>
+      <tbody>
+        <tr><td>Google LLC 및 Google 광고 서비스</td><td>IP 주소, 앱 실행·탭 등 앱 상호작용 정보, SDK·앱 성능 관련 진단 정보, Android 광고 ID, App Set ID, 기기 또는 계정 관련 식별자</td><td>광고 제공, 광고 성과 측정, 서비스 분석, 보안 및 부정행위 방지</td></tr>
+      </tbody>
+    </table>
+    <p>Google의 정보 처리에 관한 자세한 내용은 Google 개인정보처리방침과 Google 광고 관련 안내에서 확인할 수 있습니다.</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy">Google 개인정보처리방침</a></li>
+      <li><a href="https://policies.google.com/technologies/ads">Google 광고 안내</a></li>
+    </ul>
+
+    <h2>3. 개인정보의 보유 및 삭제</h2>
+    <p>기기 내부에 저장된 학습 진도, 모의고사 기록, 앱 설정은 이용자가 앱 설정의 초기화 기능을 사용하거나 앱을 삭제하면 삭제됩니다.</p>
+    <p>Google AdMob SDK를 통해 처리되는 정보의 보유 기간과 삭제 방법은 Google의 개인정보처리방침 및 광고 설정 정책에 따릅니다. Android 광고 ID는 이용자가 Android 설정의 광고 관련 메뉴에서 재설정하거나 삭제할 수 있습니다.</p>
+
+    <h2>4. 제3자 제공 및 처리위탁</h2>
+    <p>기출서랍은 회원 정보나 학습 기록을 제3자에게 판매하거나 제공하지 않습니다.</p>
+    <p>다만 광고 표시를 위해 Google AdMob SDK가 포함되어 있으며, 광고 SDK 제공자인 Google LLC가 광고 제공 및 측정에 필요한 정보를 처리할 수 있습니다. 광고 SDK를 통한 정보 처리는 Google의 정책과 이용자 기기 설정에 따릅니다.</p>
+
+    <h2>5. 국외 이전</h2>
+    <p>기출서랍이 직접 수집한 학습 진도와 응시 이력은 기기 내부에만 저장되며 개발자 서버로 이전되지 않습니다.</p>
+    <p>Google AdMob SDK를 통해 처리되는 정보는 Google LLC 및 Google 계열 서비스가 운영되는 국가에서 처리될 수 있습니다. 이전되는 정보와 처리 목적은 이 방침의 “광고 SDK를 통한 자동 수집 정보” 항목과 같습니다.</p>
+
+    <h2>6. 정보주체의 권리와 행사 방법</h2>
+    <p>이용자는 앱 설정에서 학습 진도와 응시 이력을 초기화할 수 있고, 앱 삭제를 통해 기기 내부 저장 정보를 삭제할 수 있습니다.</p>
+    <p>개인정보 관련 문의, 열람·정정·삭제·처리정지 요청은 Google Play 스토어에 표시된 개발자 연락처로 접수할 수 있습니다. 광고 식별자 및 Google 광고 설정과 관련된 사항은 이용자의 Android 기기 설정 또는 Google 계정의 광고 설정에서 관리할 수 있습니다.</p>
+
+    <h2>7. 아동의 개인정보</h2>
+    <p>기출서랍은 자격증 시험 준비를 위한 학습 앱이며, 만 14세 미만 아동을 주된 이용자로 하지 않습니다. 앱은 아동의 이름, 연락처 등 개인정보를 직접 수집하지 않습니다.</p>
+
+    <h2>8. 개인정보 보호 조치</h2>
+    <p>기출서랍은 앱 기능 제공에 필요한 학습 데이터를 이용자 기기 내부 저장소에 저장합니다. 광고 SDK를 통해 전송되는 정보는 Google Mobile Ads SDK의 전송 보안 정책에 따라 처리됩니다.</p>
+
+    <h2>9. 개인정보 처리방침 변경</h2>
+    <p>광고, 분석, 계정, 결제, 서버 동기화 등 개인정보 처리에 영향을 주는 기능을 추가하거나 관련 법령·정책이 변경되는 경우 이 개인정보 처리방침을 갱신합니다.</p>
+
+    <h2>10. 문의</h2>
+    <p>개인정보 관련 문의는 Google Play 스토어에 표시된 개발자 연락처로 접수해 주세요.</p>
+
+    <p class="date">시행일: 2026-05-17</p>
+  </main>
+</body>
+</html>
